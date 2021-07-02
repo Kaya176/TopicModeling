@@ -19,8 +19,8 @@ def read_voca_file(file_path):
 
 
 def main():
-    document_file_path = "./data/ap.dat"
-    voca_file_path = "./data/vocab.txt"
+    document_file_path = "./LDA+Gibbs_data/ap.dat"
+    voca_file_path = "./LDA+Gibbs_data/vocab.txt"
     output_dir_name = "./output_LDA_Gibbs/"
     topics = 50
     iterations = 20
